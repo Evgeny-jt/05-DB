@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS ЖанрыИсполнители (
 CREATE TABLE IF NOT EXISTS Альбомы (
 	альбом_id SERIAL PRIMARY KEY,
 	альбом VARCHAR(50) NOT null,
-	год VARCHAR(4) NOT null
+	год INTEGER NOT null
 );
 
 
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS Треки (
 CREATE TABLE IF NOT EXISTS Сборники (
 	сборник_id SERIAL PRIMARY KEY,
 	сборник VARCHAR(40) NOT null,
-	год VARCHAR(40) NOT null
+	год INTEGER NOT null
 );
 
 
